@@ -19,6 +19,20 @@ API Level 16 (Android 4.1) and above.
 
 Setup
 ------
+
+```groovy
+// AndroidX version
+// For no-op variant keep using 1.1.3
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencies {
+    implementation 'com.github.abn-volk:DebugOverlay-Android:2.0.0'
+}
+```
+
 The library is pushed to Maven Central as an AAR,
 so you just need to add the followings to your ***build.gradle*** file:
 
