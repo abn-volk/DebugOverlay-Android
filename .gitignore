@@ -16,6 +16,7 @@ build/
 .idea/libraries/
 .idea/scopes/
 .idea/inspectionProfiles/
+.idea/caches/
 
 # Other
 .DS_Store

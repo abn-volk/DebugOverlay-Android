@@ -4,7 +4,6 @@ apply plugin: 'com.getkeepsafe.dexcount'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
@@ -28,8 +27,8 @@ android {
 }
 
 dependencies {
-    testCompile deps.junit
-    testCompile deps.mockitocore
+    testImplementation deps.junit
+    testImplementation deps.mockitocore
 }
 
 // for maven central deployment
